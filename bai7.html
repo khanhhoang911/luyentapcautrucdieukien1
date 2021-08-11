@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("Nhập số phút gọi"));
+    if(a<=50) {
+        let b = 25000 + (a*600);
+        document.write("Cước điện thoại là " + b);
+    } else {
+        let b = 25000 + (50*600) + ((a-50)*400);
+        document.write("Cước điện thoại là " + b);
+    }
+</script>
+</body>
+</html>
